@@ -4,9 +4,7 @@
 }
 
 body {
-  background-image: url(./assets/png-transparent-brush-cloud-computing-cloud-storage-sky-blue-atmosphere-cloud.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-color: rgb(172, 170, 170);
   color: rgb(36, 38, 139);
   text-align: center;
   font-family: sans-serif;
