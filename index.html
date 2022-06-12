@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O sacerdote milagroso</title>
+    <script type="text/javascript" src="./main.js" defer></script>
     <link rel="stylesheet" href="./style.css" />
-    <title>Sacerdote milagroso</title>
   </head>
-  <body>
 
+  <body>
     <div id="container">
-      <img
-        src="./assets/inri_cristu.png.png"
-        alt="Imagem de uma bola de cristal"
-      />
-      <h1>Faça seu pedido ao Pahii!</h1>
-      <p>Clique fazer o pedido para que o seu Milagre seja alcançado.</p>
-      <input type="text" placeholder="Digite suas preces..."/>
-      <button>Fazer o pedido</button>
+      <img src="./assets/inri_cristu.png.png" />
+      <h1>Faça sua pergunta ao Phaii!</h1>
+      <p>Clique em fazer pergunta para que sua bênção seja alcançada.</p>
+      <input id="inputPergunta" type="text" placeholder="Faça suas preces..." />
+      <button id="buttonPerguntar" onclick="fazerPergunta()">
+        Fazer Pergunta
+      </button>
+
+      <h3 id="resposta"></h3>
     </div>
   </body>
 </html>
